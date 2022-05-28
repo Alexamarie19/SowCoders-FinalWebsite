@@ -1,0 +1,99 @@
+html, body {
+  min-width: 1000px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: lightskyblue;
+}
+
+.topnav {
+  background-color: lightgreen;
+  overflow: hidden;
+  border: solid;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-right: 1px solid;
+}
+
+.topnav a:hover {
+  background-color: #bcfbbc;
+  color: black;
+}
+
+.topnav-right {
+  float: right;
+  border-left:1px solid;
+}
+
+.Titulo {
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 22px;
+  background-color: #ffff00;
+  border: solid;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.Contenido {
+  font-family: 'Libre Bodoni', serif;
+  font-size: 19px;
+  text-align: justify;
+}
+
+h3 {
+  text-align: center;
+  background-color: lightgreen;
+  font-size: 26px;
+  border: dotted;
+}
+
+img {
+  max-width: 530px;
+  max-height: 300px;
+  border: solid;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.submit {
+  background-color: lightgreen;
+  color: black;
+}
+
+.footer {
+  background-color: #ffff00;
+  overflow: hidden;
+  border: solid;
+}
+
+.footer a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px; 
+  text-decoration: none;
+  font-size: 17px;
+}
